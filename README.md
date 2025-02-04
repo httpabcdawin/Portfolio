@@ -4,7 +4,7 @@ Welcome to my personal portfolio! I am a software developer with experience in w
 
 ## About Me
 
-I am a passionate and dedicated software developer with a focus on mobile and web development. I have hands-on experience in building mobile applications with **React Native**, and I am also proficient in **HTML**, **CSS**, **JavaScript**, **PHP**, **Java**, and **Python**. I enjoy tackling challenges and learning new technologies to improve my skills.
+I am a passionate and dedicated software developer focusing on web development. I have hands-on experience in building web applications with **HTML**, **CSS**, **JavaScript**, **PHP**, **Java**, and **Python**. I enjoy tackling challenges and learning new technologies to improve my skills.
 
 ## Projects
 
@@ -22,11 +22,11 @@ Here are some of the projects I have worked on:
 
 ### 4. [**Portfolio Website**](#)
 - **Technology Used**: HTML, CSS, JavaScript
-- This portfolio itself, showcasing my skills, projects, and experience in software development. It’s built with a responsive design to look great on all devices.
+- This portfolio itself, showcases my skills, projects, and experience in software development. It’s built with a responsive design to look great on all devices.
 
 ## Skills
 
-- **Mobile Development**: React Native, Flutter, Android Studio
+- **Mobile Development**: Flutterflow, Android Studio
 - **Web Development**: HTML, CSS, JavaScript, PHP, Python
 - **Databases**: SQL, Firebase, MySQL
 - **Tools & Technologies**: Git, GitHub, VS Code, Firebase, Supabase
@@ -41,4 +41,4 @@ Feel free to reach out to me via email or through my social media profiles:
 
 ## License
 
-This project is open-source and available under the Copyright (c) [2024] [Ruzzle Chua]
+This project is open-source and available under the Copyright (c) [2025] [Ruzzle Chua]
