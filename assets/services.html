@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ruzzle Chua's Portfolio. I am Ruzzle Darwin Chua, a software engineer specialized in front-end development."
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Portfolio | Ruzzle Chua</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <a href="/assets/index.html" class="logo">Ruzzle <span>Chua</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="/assets/index.html" class="active">Home</a>
+        <a href="/assets/index.html">Education</a>
+        <a href="/assets/index.html">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- CONTACT SECTION -->
+    <div id="particles-js"></div>
+    <section class="contact" id="contact">
+      <h3>GET IN TOUCH</h3>
+      <h2 class="heading">Contact<span>.</span></h2>
+
+      <div class="contact">
+        <i class="fas fa-map-marker-alt">
+          <h4><span>Location:</span></h4>
+          <p>Manila, Philippines</p>
+        </i>
+        <i class="">
+          <h4><span>Email:</span></h4>
+          <p>ruzzledarwinchua@gmail.com</p>
+        </i>
+        <i class="">
+          <h4><span>Phone:</span></h4>
+          <p>+63-976-418-6126</p>
+        </i>
+      </div>
+
+      <form action="/assets/send_email.php" method="POST">
+        <div class="input-group">
+          <div class="input-box">
+            <input
+              type="text"
+              id="full_name"
+              name="full_name"
+              placeholder="Full Name"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+
+          <div class="input-box">
+            <input
+              type="tel"
+              id="phone_number"
+              name="phone_number"
+              placeholder="Phone Number"
+              required
+              minlength="11"
+              maxlength="11"
+            />
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Subject"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="input-group-2">
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+
+          <button type="submit" class="btn">Send Message</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="social">
+        <a href="https://www.linkedin.com/in/ruzzledarwinchua/"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/httpabcdawin"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="mailto:ruzzledarwinchua@gmail.com"
+          ><i class="bx bxl-gmail"></i
+        ></a>
+        <a href="https://www.facebook.com/zarch.scott/"
+          ><i class="bx bxl-facebook-circle"></i
+        ></a>
+      </div>
+
+      <ul class="list">
+        <li><a href="/assets/FAQ.html">FAQ</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="/assets/index.html">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p class="copyright">
+        Copyright © 2025 Ruzzle Chua | All Rights Reserved
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
